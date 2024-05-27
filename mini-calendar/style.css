@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: radial-gradient(#9ba8ab, #06141b);
+}
+
+.calendar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 3px 4px 9px;
+  border-radius: 10px;
+}
+
+#left,
+#right {
+  height: 35vh;
+  width: 20vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  box-shadow: inset 5px 5px 10px rgba(63, 62, 62, 0.2);
+  border-radius: 10px;
+  background-color: #ccd0cf;
+}
+
+#left {
+  border-radius: 10px 0 0 10px;
+}
+#right {
+  border-radius: 0 10px 10px 0;
+}
+#date {
+  font-size: 90px;
+  font-weight: 600;
+}
+#day {
+  font-size: 20px;
+  font-weight: 500;
+}
+#month {
+  font-size: 30px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+#year {
+  font-size: 30px;
+  font-weight: 600;
+}
