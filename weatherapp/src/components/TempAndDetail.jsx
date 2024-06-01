@@ -17,7 +17,7 @@ function TempAndDetail() {
       </div>
 
       <div className='flex items-center justify-between flex-row text-white py-3'>
-        <img src='sun (1).png' alt='' className='w-20' />
+        <img src='heat.png' alt='' className='w-20' />
         <p className='text-6xl'>43°</p>
         <div className='flex flex-col space-y-2'>
           <div className='flex font-light text-sm items-center justify-center py-1'>
