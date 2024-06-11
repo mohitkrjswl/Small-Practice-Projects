@@ -13,19 +13,17 @@ body {
   display: flex;
   justify-content: center;
   align-items: center;
-  background: linear-gradient(to left, #1a56db, #9061f9);
+  background: linear-gradient(to left, #1a56db, #0a0a0a);
   color: #ffffff;
   overflow: hidden;
 }
 
 .container {
-  border: 0.5px solid #ffffff;
+  border: 0.3px solid #ffffff;
   border-radius: 10px;
   padding: 24px 28px;
-  /* display: flex;
-  flex-direction: column; */
   align-items: center;
-  background: rgba(255, 255, 255, 0.2);
+  background: linear-gradient(to bottom, #5793ee, #b7b6b6);
   box-shadow: 8px 8px 15px rgba(0, 0, 0, 0.5), 8px 8px 20px rgba(0, 0, 0, 0.3),
     8px 8px 25px rgba(0, 0, 0, 0.1);
 }
@@ -99,7 +97,7 @@ input[type="range"]::-webkit-slider-thumb {
   height: 20px;
 }
 .genBtn {
-  background: linear-gradient(to right, #ffa31d, #ef5454);
+  background: linear-gradient(to right, #ffa31d, #f58282);
   border: none;
   border-radius: 10px;
   outline: none;

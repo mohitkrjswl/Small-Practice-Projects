@@ -56,6 +56,6 @@ copy.addEventListener('click', () => {
     copy.title = 'Password Copied';
     setTimeout(() => {
       copy.innerText = 'content_copy';
-    }, 3000)
+    }, 3 000)
   }
 });
